@@ -1,0 +1,146 @@
+.App {
+  font-family: "Vazirmatn", sans-serif;
+  box-sizing: border-box;
+}
+.topBar__nav {
+  background-color: #fff;
+  margin: 0 2%;
+}
+.topBar__col {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+.topBar__nav-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: block;
+  color: rgb(255, 193, 7);
+  text-align: center;
+}
+.topBar__icon {
+  font-size: 2rem;
+}
+.topBar__icon-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.topBar__icon-link {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pa {
+  width: 1rem;
+}
+.nav__item {
+  margin-right: 2rem;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+.nav__item1{
+  color: black;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+
+
+}
+.nav__item:hover {
+  color: black;
+}
+.nav__col {
+  margin: 1rem 0;
+  display: flex;
+}
+.card__title {
+  text-overflow: ellipsis;
+  font-weight: 800;
+  display: block;
+  height: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.card__col {
+  text-decoration: none;
+}
+.card__section {
+  border-radius: 0%;
+  height: 20rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.card__category {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+.card__price {
+  text-align: center;
+}
+.btn-warning:hover {
+  opacity: 0.7;
+}
+.productsBox__a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+.productsBox__a:hover {
+  color: rgb(255, 193, 7);
+}
+.ProductsBox__section::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  border-top: 3px solid rgb(255, 193, 7);
+  position: absolute;
+}
+.BlogPosts__a::after {
+  content: "";
+  width: 110%;
+  position: absolute;
+  top: 120%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid rgb(255, 193, 7);
+}
+.BlogPosts__a:hover {
+  color: (255, 193, 100);
+}
+.Footer__icon {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: #fff;
+}
+.Footer__icon:hover {
+  color: rgb(255, 193, 7);
+}
+.count{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ef3636;
+  display: inline-block;
+  position: absolute;
+  top: -2px;
+  right: 34px;
+}
